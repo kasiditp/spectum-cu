@@ -1,0 +1,309 @@
+.square1 {
+    background: black;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 3%;
+    top: 90%;
+    /* z-index: 100; */
+    webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    transform: rotatex(180deg);
+    transform-origin: top;
+  }
+  .square1-down {
+    background: red;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+    left: 3%;
+    top: 22%;
+    /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    /* transform: rotatex(180deg);
+    transform-origin: bottom; */
+  }
+  div.clicked1-up {
+    height: 330px;
+  }
+  div.clicked1-down {
+    height: 330px;
+  }
+  .arrow-up1 {
+    /* background-color: red; */
+    position: absolute;
+    left: 2.2%;
+    top: 86%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid black;
+    transition: 4s ease-in-out;
+  }
+  .arrow-down1 {
+    /* background-color: red; */
+    position: absolute;
+    left: 2.2%;
+    top: 22%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-top: 15px solid red;
+    transition: 4s ease-in-out;
+  }
+  .arrow-clicked {
+    transform: translate(0, -335px);
+  }
+  .arrow-down1-clicked {
+    transform: translate(0, 330px);
+  }
+  /* !!!!!!!!!!!!!!!!! Arrow 2 !!!!!!!!!!!!!!!!!  */
+  .square2 {
+    background: black;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 12%;
+    top: 90%;
+    /* z-index: 100; */
+    webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    transform: rotatex(180deg);
+    transform-origin: top;
+  }
+  .square2-down {
+    background: blue;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+    left: 12%;
+    top: 22%;
+    /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    /* transform: rotatex(180deg);
+    transform-origin: bottom; */
+  }
+  div.clicked2-up {
+    height: 330px;
+  }
+  div.clicked2-down {
+    height: 170px;
+  }
+  .arrow-up2 {
+    /* background-color: red; */
+    position: absolute;
+    left: 11.2%;
+    top: 86%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid black;
+    transition: 4s ease-in-out;
+  }
+  .arrow-down2 {
+    /* background-color: red; */
+    position: absolute;
+    left: 11.2%;
+    top: 22%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-top: 15px solid blue;
+    transition: 4s ease-in-out;
+  }
+  .arrow2-clicked {
+    transform: translate(0, -335px);
+  }
+  .arrow2-down-clicked {
+    transform: translate(0, 170px);
+  }
+  /* !!!!!!!!!!!!!!!!! Arrow 3 !!!!!!!!!!!!!!!!!  */
+  .square3 {
+    background: black;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 21%;
+    top: 90%;
+    /* z-index: 100; */
+    webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    transform: rotatex(180deg);
+    transform-origin: top;
+  }
+  .square3-down {
+    background: violet;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+    left: 21%;
+    top: 28%;
+    /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    /* transform: rotatex(180deg);
+    transform-origin: bottom; */
+  }
+  div.clicked3-up {
+    height: 305px;
+  }
+  div.clicked3-down {
+    height: 140px;
+  }
+  .arrow-up3 {
+    /* background-color: red; */
+    position: absolute;
+    left: 20.3%;
+    top: 86%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid black;
+    transition: 4s ease-in-out;
+  }
+  .arrow-down3 {
+    /* background-color: red; */
+    position: absolute;
+    left: 20.2%;
+    top: 28%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-top: 15px solid violet;
+    transition: 4s ease-in-out;
+  }
+  .arrow3-clicked {
+    transform: translate(0, -305px);
+  }
+  .arrow3-down-clicked {
+    transform: translate(0, 140px);
+  }
+  /* !!!!!!!!!!!!!!!!! Arrow 4 !!!!!!!!!!!!!!!!!  */
+  .square4 {
+    background: black;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 30%;
+    top: 90%;
+    /* z-index: 100; */
+    webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    transform: rotatex(180deg);
+    transform-origin: top;
+  }
+  .square4-down {
+    background: violet;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+    left: 30%;
+    top: 36%;
+    /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    /* transform: rotatex(180deg);
+    transform-origin: bottom; */
+  }
+  div.clicked4-up {
+    height: 265px;
+  }
+  div.clicked4-down {
+    height: 90px;
+  }
+  .arrow-up4 {
+    /* background-color: red; */
+    position: absolute;
+    left: 29.3%;
+    top: 86%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid black;
+    transition: 4s ease-in-out;
+  }
+  .arrow-down4 {
+    /* background-color: red; */
+    position: absolute;
+    left: 29.2%;
+    top: 36%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-top: 15px solid violet;
+    transition: 4s ease-in-out;
+  }
+  .arrow4-clicked {
+    transform: translate(0, -265px);
+  }
+  .arrow4-down-clicked {
+    transform: translate(0, 90px);
+  }
+  /* !!!!!!!!!!!!!!!!! Arrow 5 !!!!!!!!!!!!!!!!!  */
+  .square5 {
+    background: black;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    left: 39%;
+    top: 90%;
+    /* z-index: 100; */
+    webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    transform: rotatex(180deg);
+    transform-origin: top;
+  }
+  .square5-down {
+    background: violet;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+    left: 39%;
+    top: 45%;
+    /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
+    transition: height 4s ease-in-out;
+    /* transform: rotatex(180deg);
+    transform-origin: bottom; */
+  }
+  div.clicked5-up {
+    height: 210px;
+  }
+  div.clicked5-down {
+    height: 40px;
+  }
+  .arrow-up5 {
+    /* background-color: red; */
+    position: absolute;
+    left: 38.3%;
+    top: 86%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid black;
+    transition: 4s ease-in-out;
+  }
+  .arrow-down5 {
+    /* background-color: red; */
+    position: absolute;
+    left: 38.2%;
+    top: 45%;
+    width: 30px; 
+    height: 30px; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-top: 15px solid violet;
+    transition: 4s ease-in-out;
+  }
+  .arrow5-clicked {
+    transform: translate(0, -210px);
+  }
+  .arrow5-down-clicked {
+    transform: translate(0, 40px);
+  }

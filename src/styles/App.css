@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  /* height: 150px; */
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Oke-logo {
+  height: 300px;
+}
+h1.title {
+  font-size: 50px;
+  margin-top: 20px;
+}
+h2.subtitle {
+  font-size: 30px;
+}
+.light-img {
+  height: 30%;
+  width: 30%;
+}
+.light-img-2 {
+  height: 70%;
+  width: 50%;
+}
+.circle-container {
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px; /* Half the height */
+  margin-left: -50px;
+}
+svg.a{
+  position: absolute;
+  visibility: hidden;
+  left: 10;
+}
+circle {
+  z-index: 100;
+}
+.test {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 100%;
+  left: 100;
+}
+.button-page2 {
+  font-size: 5px;
+  width: 20px;
+  height: 15px;
+  /* margin-bottom: 20px; */
+}
+.page3-button {
+  margin: 5% 0;
+}
+sub {
+  padding-top: 20px;
+}
+div.page3-button a {
+  width: 200px;
+}
+.ball-page2 {
+  position: absolute;
+  left: 0;
+  top: 80%;
+}
+.ball1-page2 {
+  position: absolute;
+  left: 9%;
+  top: 80%;
+}
+.ball2-page2 {
+  position: absolute;
+  left: 18%;
+  top: 80%;
+}
+.ball3-page2 {
+  position: absolute;
+  left: 27%;
+  top: 80%;
+}
+.ball4-page2 {
+  position: absolute;
+  left: 36%;
+  top: 80%;
+}
+div a.button {
+  margin-top: 15%;
+}
+div input {
+  margin-top: 15%;
+  font-size: 1.5rem !important;
+  width: 100px !important;
+}
+.control {
+  text-align: center;
+}
+.is-800x540 {
+  width: 800px;
+  height: 540px;
+}
+
