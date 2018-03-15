@@ -1,0 +1,39 @@
+.circle-container {
+    /* position: absolute; */
+    text-align: center;
+    background-color: white;
+    /* width: 100px; */
+    /* height: 100px; */
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px; /* Half the height */
+    margin-left: -50px;
+  }
+  svg.a{
+    position: absolute;
+    visibility: hidden;
+    left: 10;
+  }
+  circle {
+    z-index: 100;
+  }
+.image-circle {
+    height: 500px;
+    width: 500px;
+}
+.button-circle-page {
+    margin-bottom: 40px;
+}
+.absolutePic {
+    position: absolute;
+    top: 80%;
+    width: 450px;
+}
+@media only screen and (min-width:1260px){
+    .absolutePic {
+        position: absolute;
+        top: 80%;
+        width: 700px;
+    }
+}

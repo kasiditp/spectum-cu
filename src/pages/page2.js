@@ -4,8 +4,18 @@ import anime from 'animejs'
 // import Flame from '../components/flame'
 // import Circle from '../components/circle'
 import ladder from '../assets/ladder1.png'
+import blue from '../assets/blue.png'
+import ocean from '../assets/ocean.png'
+import red from '../assets/red.png'
+import purple from '../assets/purple.png'
 import '../styles/arrow.css'
 
+const marginTop = {
+    marginTop: '9%'
+}
+const textCenter = {
+    textAlign: 'center'
+}
 class Page2 extends Component {
     constructor(props) {
         super(props)
@@ -15,35 +25,45 @@ class Page2 extends Component {
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 1'
+                textButton: 'ดูดพลังงาน 1',
+                color: 'ไม่มีสี',
+                randar: 0
             },
             energy2: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 2'
+                textButton: 'ดูดพลังงาน 2',
+                color: 'ม่วง',
+                randar: 410.2
             },
             energy3: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 3'
+                textButton: 'ดูดพลังงาน 3',
+                color: 'น้ำเงิน',
+                randar: 434.1
             },
             energy4: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 4'
+                textButton: 'ดูดพลังงาน 4',
+                color: 'น้ำทะเล',
+                randar: 486
             },
             energy5: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 5'
+                textButton: 'ดูดพลังงาน 5',
+                color: 'หแดง',
+                randar: 656.3
             }
         }
     }
@@ -54,35 +74,45 @@ class Page2 extends Component {
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 1'
+                textButton: 'ดูดพลังงาน 1',
+                color: 'ไม่มีสี',
+                randar: 0
             },
             energy2: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 2'
+                textButton: 'ดูดพลังงาน 2',
+                color: 'ม่วง',
+                randar: 410.2
             },
             energy3: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 3'
+                textButton: 'ดูดพลังงาน 3',
+                color: 'น้ำเงิน',
+                randar: 434.1
             },
             energy4: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 4'
+                textButton: 'ดูดพลังงาน 4',
+                color: 'น้ำทะเล',
+                randar: 486
             },
             energy5: {
                 show: false,
                 showArrow: false,
                 showSquare: false,
                 showBall: false,
-                textButton: 'ดูดพลังงาน 5'
+                textButton: 'ดูดพลังงาน 5',
+                color: 'แดง',
+                randar: 656.3
             }
         })
         
@@ -119,10 +149,10 @@ class Page2 extends Component {
             translateY: 0,
             easing: 'easeInOutQuart'
         })
-        setTimeout(function(){ 
-            document.querySelector('.square1-down').classList.toggle('clicked1-down');
-            document.querySelector('.arrow-down1') .classList.toggle('arrow-down1-clicked'); 
-        }, 50);
+        // setTimeout(function(){ 
+        //     document.querySelector('.square1-down').classList.toggle('clicked1-down');
+        //     document.querySelector('.arrow-down1') .classList.toggle('arrow-down1-clicked'); 
+        // }, 50);
     }
     takeEnergy2 = async () => {
         await this.resetEnergyState() 
@@ -284,7 +314,7 @@ class Page2 extends Component {
                         <img src={ladder} className="image is-800x540" alt="บันได" />
                         {
                             energy1.show &&
-                            <div>
+                            <div style={marginTop}>
                                 {
                                     energy1.showArrow &&
                                     <div>
@@ -292,13 +322,13 @@ class Page2 extends Component {
                                         <div className="arrow-up1"></div>
                                     </div>
                                 }
-                                {
+                                {/* {
                                     !energy1.showArrow &&
                                     <div>
                                     <div className="square1-down"></div>
                                         <div className="arrow-down1"></div>
                                     </div>
-                                }
+                                } */}
                                 <svg className="ball-page2" height="100" width="100">
                                     <circle cx="45" cy="45" r="18" stroke="black" stroke-width="3" fill="black" />
                                 </svg>
@@ -306,7 +336,7 @@ class Page2 extends Component {
                         }
                         {
                             energy2.show &&
-                            <div>
+                            <div style={marginTop}>
                                 {
                                     energy2.showArrow &&
                                     <div>
@@ -328,7 +358,7 @@ class Page2 extends Component {
                         }
                         {
                             energy3.show &&
-                            <div>
+                            <div style={marginTop}>
                                 {
                                     energy3.showArrow &&
                                     <div>
@@ -350,7 +380,7 @@ class Page2 extends Component {
                         }
                         {
                             energy4.show &&
-                            <div>
+                            <div style={marginTop}>
                                 {
                                     energy4.showArrow &&
                                     <div>
@@ -372,7 +402,7 @@ class Page2 extends Component {
                         }
                         {
                             energy5.show &&
-                            <div>
+                            <div style={marginTop}>
                                 {
                                     energy5.showArrow &&
                                     <div>
@@ -393,7 +423,7 @@ class Page2 extends Component {
                             </div>
                         }
                     </div>
-                    <div class="column is-one-fourth">
+                    <div class="column ">
                         การดูดพลังงาน
                         <a class="button is-primary is-large is-outlined" 
                         onClick={() => { energy1.show ? this.releaseEnergy1() : this.takeEnergy1() }}>
@@ -419,32 +449,56 @@ class Page2 extends Component {
                     <div class="column">
                         λ ที่ได้
                         <div class="control">
-                            <input class="input" type="text" />
+                            <input class="input" type="text" style={textCenter} value={ (energy1.show && !energy1.showArrow) ? energy1.randar: '' }/>
                         </div>
                         <div class="control">
-                            <input class="input" type="text" />
+                            <input class="input" type="text" style={textCenter} value={ (energy2.show && !energy2.showArrow) ? energy2.randar: '' }/>
                         </div>
                         <div class="control">
-                            <input class="input" type="text" />
+                            <input class="input" type="text" style={textCenter} value={ (energy3.show && !energy3.showArrow) ? energy3.randar: '' }/>
                         </div>
                         <div class="control">
-                            <input class="input" type="text" />
+                            <input class="input" type="text" style={textCenter} value={ (energy4.show && !energy4.showArrow) ? energy4.randar: '' }/>
                         </div>
                         <div class="control">
-                            <input class="input" type="text" />
+                            <input class="input" type="text" style={textCenter} value={ (energy5.show && !energy5.showArrow) ? energy5.randar: '' }/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        สี ที่ได้
+                        <div class="control">
+                            <input class="input" type="text" style={textCenter} value={ (energy1.show && !energy1.showArrow) ? energy1.color: '' }/>
+                        </div>
+                        <div class="control">
+                            <input class="input" type="text" style={textCenter} value={ (energy2.show && !energy2.showArrow) ? energy2.color: '' }/>
+                        </div>
+                        <div class="control">
+                            <input class="input" type="text" style={textCenter} value={ (energy3.show && !energy3.showArrow) ? energy3.color: '' }/>
+                        </div>
+                        <div class="control">
+                            <input class="input" type="text" style={textCenter} value={ (energy4.show && !energy4.showArrow) ? energy4.color: '' }/>   
+                        </div>
+                        <div class="control">
+                            <input class="input" type="text" style={textCenter} value={ (energy5.show && !energy5.showArrow) ? energy5.color: '' }/>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div className="row">
             <div className="columns">
                     <div class="column">
-                        λ ที่ได้
+                    {/* <img src={purple} className="image" alt="บันได" /> */}
+                        { energy2.show && !energy2.showArrow && <img src={purple} className="image absolutePic" alt="บันได" /> }
+                        { energy3.show && !energy3.showArrow && <img src={ocean} className="image absolutePic" alt="บันได" /> }
+                        { energy4.show && !energy4.showArrow && <img src={blue} className="image absolutePic" alt="บันได" /> }
+                        { energy5.show && !energy5.showArrow && <img src={red} className="image absolutePic" alt="บันได" /> }
                     </div>
                     <div class="column">
-                        <Link to="3" activeClassName="active">
+                        <Link to="4" activeClassName="active">
                             <button className="button is-light is-large">เปรียบเทียบสีของเปลวไฟและ spectrum</button>
                         </Link>
                     </div>
+            </div>
+            </div>
             </div>
             </section>
         </div>

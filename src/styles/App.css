@@ -45,41 +45,41 @@ h2.subtitle {
   width: 30%;
 }
 .light-img-2 {
-  height: 70%;
-  width: 50%;
+  height: 300px;
+  width: 250px;
 }
-.circle-container {
-  position: absolute;
-  background-color: white;
-  width: 100px;
-  height: 100px;
-  z-index: 10;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px; /* Half the height */
-  margin-left: -50px;
-}
-svg.a{
+.glassImage {
   position: absolute;
   visibility: hidden;
-  left: 10;
+  width: 15%;
 }
-circle {
-  z-index: 100;
+.glassShow {
+  position: absolute;
+  width: 15%;
+  z-index: 3;
+}
+.glassShow:hover {
+  position: absolute;
+  width: 15%;
+  z-index: 3;
+  cursor: pointer;
 }
 .test {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 25px;
+  height: 25px;
   background-color: black;
   border-radius: 100%;
-  left: 100;
+  /* margin: auto; */
+  left: 49.1%;
+  top: 51%;
 }
 .button-page2 {
   font-size: 5px;
-  width: 20px;
-  height: 15px;
+  /* width: 20px;
+  height: 15px; */
   /* margin-bottom: 20px; */
+  /* border-width: 0px;  */
 }
 .page3-button {
   margin: 5% 0;
@@ -92,31 +92,58 @@ div.page3-button a {
 }
 .ball-page2 {
   position: absolute;
-  left: 0;
-  top: 80%;
+  left: -1%;
+  top: 63%;
 }
 .ball1-page2 {
   position: absolute;
-  left: 9%;
-  top: 80%;
+  left: 8%;
+  top: 63%;
 }
 .ball2-page2 {
   position: absolute;
-  left: 18%;
-  top: 80%;
+  left: 17%;
+  top: 63%;
 }
 .ball3-page2 {
   position: absolute;
-  left: 27%;
-  top: 80%;
+  left: 26%;
+  top: 63%;
 }
 .ball4-page2 {
   position: absolute;
-  left: 36%;
-  top: 80%;
+  left: 35%;
+  top: 63%;
+}
+@media only screen and (min-width:1260px){
+  .ball-page2 {
+    position: absolute;
+    left: 0%;
+    top: 63%;
+  }
+  .ball1-page2 {
+    position: absolute;
+    left: 9%;
+    top: 63%;
+  }
+  .ball2-page2 {
+    position: absolute;
+    left: 18%;
+    top: 63%;
+  }
+  .ball3-page2 {
+    position: absolute;
+    left: 27%;
+    top: 63%;
+  }
+  .ball4-page2 {
+    position: absolute;
+    left: 36%;
+    top: 63%;
+  }
 }
 div a.button {
-  margin-top: 15%;
+  margin-top: 5%;
 }
 div input {
   margin-top: 15%;
@@ -130,4 +157,10 @@ div input {
   width: 800px;
   height: 540px;
 }
-
+.padding-horizontal {
+  margin: 0 5%;
+}
+.spectrum-page3 {
+  height: 550px;
+  width: 140px;
+}

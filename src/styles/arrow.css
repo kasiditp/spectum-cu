@@ -4,7 +4,7 @@
     height: 20px;
     position: absolute;
     left: 3%;
-    top: 90%;
+    top: 70%;
     /* z-index: 100; */
     webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
@@ -33,7 +33,7 @@
     /* background-color: red; */
     position: absolute;
     left: 2.2%;
-    top: 86%;
+    top: 67%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
@@ -66,7 +66,7 @@
     height: 20px;
     position: absolute;
     left: 12%;
-    top: 90%;
+    top: 70%;
     /* z-index: 100; */
     webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
@@ -74,12 +74,12 @@
     transform-origin: top;
   }
   .square2-down {
-    background: blue;
+    background: rgb(146, 39, 143);
     width: 11px;
     height: 5px;
     position: absolute;
     left: 12%;
-    top: 22%;
+    top: 18%;
     /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
     /* transform: rotatex(180deg);
@@ -95,7 +95,7 @@
     /* background-color: red; */
     position: absolute;
     left: 11.2%;
-    top: 86%;
+    top: 67%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
@@ -107,12 +107,12 @@
     /* background-color: red; */
     position: absolute;
     left: 11.2%;
-    top: 22%;
+    top: 17%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent; 
-    border-top: 15px solid blue;
+    border-top: 15px solid rgb(146, 39, 143);
     transition: 4s ease-in-out;
   }
   .arrow2-clicked {
@@ -128,7 +128,7 @@
     height: 20px;
     position: absolute;
     left: 21%;
-    top: 90%;
+    top: 70%;
     /* z-index: 100; */
     webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
@@ -136,12 +136,12 @@
     transform-origin: top;
   }
   .square3-down {
-    background: violet;
+    background: rgb(38, 34, 98);
     width: 11px;
     height: 5px;
     position: absolute;
     left: 21%;
-    top: 28%;
+    top: 22%;
     /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
     /* transform: rotatex(180deg);
@@ -157,7 +157,7 @@
     /* background-color: red; */
     position: absolute;
     left: 20.3%;
-    top: 86%;
+    top: 67%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
@@ -169,12 +169,12 @@
     /* background-color: red; */
     position: absolute;
     left: 20.2%;
-    top: 28%;
+    top: 21%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent; 
-    border-top: 15px solid violet;
+    border-top: 15px solid rgb(38, 34, 98);
     transition: 4s ease-in-out;
   }
   .arrow3-clicked {
@@ -190,7 +190,7 @@
     height: 20px;
     position: absolute;
     left: 30%;
-    top: 90%;
+    top: 70%;
     /* z-index: 100; */
     webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
@@ -198,12 +198,12 @@
     transform-origin: top;
   }
   .square4-down {
-    background: violet;
+    background: rgb(38, 179, 225);
     width: 11px;
     height: 5px;
     position: absolute;
     left: 30%;
-    top: 36%;
+    top: 29%;
     /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
     /* transform: rotatex(180deg);
@@ -219,7 +219,7 @@
     /* background-color: red; */
     position: absolute;
     left: 29.3%;
-    top: 86%;
+    top: 67%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
@@ -231,12 +231,12 @@
     /* background-color: red; */
     position: absolute;
     left: 29.2%;
-    top: 36%;
+    top: 28%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent; 
-    border-top: 15px solid violet;
+    border-top: 15px solid rgb(38, 179, 225);
     transition: 4s ease-in-out;
   }
   .arrow4-clicked {
@@ -252,7 +252,7 @@
     height: 20px;
     position: absolute;
     left: 39%;
-    top: 90%;
+    top: 70%;
     /* z-index: 100; */
     webkit-transition: height 4s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
@@ -260,12 +260,12 @@
     transform-origin: top;
   }
   .square5-down {
-    background: violet;
+    background: rgb(237, 27, 36);
     width: 11px;
     height: 5px;
     position: absolute;
     left: 39%;
-    top: 45%;
+    top: 36%;
     /* webkit-transition: height 4s ease-in-out; For Safari 3.1 to 6.0 */
     transition: height 4s ease-in-out;
     /* transform: rotatex(180deg);
@@ -281,7 +281,7 @@
     /* background-color: red; */
     position: absolute;
     left: 38.3%;
-    top: 86%;
+    top: 67%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
@@ -293,12 +293,12 @@
     /* background-color: red; */
     position: absolute;
     left: 38.2%;
-    top: 45%;
+    top: 35.5%;
     width: 30px; 
     height: 30px; 
     border-left: 15px solid transparent;
     border-right: 15px solid transparent; 
-    border-top: 15px solid violet;
+    border-top: 15px solid rgb(237, 27, 36);
     transition: 4s ease-in-out;
   }
   .arrow5-clicked {

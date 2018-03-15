@@ -20,15 +20,13 @@ class Circle extends Component {
 
   render() {
     return (
-        <div className="circle-container">
+        <div className="animated zoomIn">
+
             <div className="test" />
-            <img src={circle} />
-            <svg className="a" height="100" width="100">
-                <circle cx="45" cy="45" r="18" stroke="black" stroke-width="3" fill="red" />
+            <img className="image-circle" src={circle} />
+            <svg className="a" height="200" width="200">
+                <circle cx="0" cy="-30" r="92" stroke="black" stroke-width="0" fill="red" />
             </svg>
-            <Link to="2" activeClassName="active">
-                <button className="button button-page2"> Zoom </button>
-            </Link>
         </div>
         
     )
