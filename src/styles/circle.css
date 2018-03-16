@@ -29,8 +29,16 @@
     position: absolute;
     top: 80%;
     width: 450px;
+
 }
-@media only screen and (min-width:1260px){
+@media screen and (min-width:1260px){
+    .absolutePic {
+        position: absolute;
+        top: 80%;
+        width: 600px;
+    }
+}
+@media screen and (min-width:1420px){
     .absolutePic {
         position: absolute;
         top: 80%;

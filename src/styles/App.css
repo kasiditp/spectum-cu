@@ -164,3 +164,9 @@ div input {
   height: 550px;
   width: 140px;
 }
+.buttonChangePage {
+  /* position: absolute;
+  left: 65%;
+  top: 70%; */
+  right: 0;
+}

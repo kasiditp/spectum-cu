@@ -16,6 +16,11 @@ const marginTop = {
 const textCenter = {
     textAlign: 'center'
 }
+const buttonChangePage= {
+    position: 'absolute',
+    left: '65%',
+    top: '70%'
+}
 class Page2 extends Component {
     constructor(props) {
         super(props)
@@ -494,7 +499,7 @@ class Page2 extends Component {
                     </div>
                     <div class="column">
                         <Link to="4" activeClassName="active">
-                            <button className="button is-light is-large">เปรียบเทียบสีของเปลวไฟและ spectrum</button>
+                            <button className="button is-light is-large buttonChangePage">เปรียบเทียบสีของเปลวไฟและ spectrum</button>
                         </Link>
                     </div>
             </div>
