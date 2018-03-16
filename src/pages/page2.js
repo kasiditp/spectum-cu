@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, IndexLink } from 'react-router'
 import anime from 'animejs'
-// import Flame from '../components/flame'
+import Flame from '../components/flame'
 // import Circle from '../components/circle'
 import ladder from '../assets/ladder1.png'
 import blue from '../assets/blue.png'
@@ -16,15 +16,11 @@ const marginTop = {
 const textCenter = {
     textAlign: 'center'
 }
-const buttonChangePage= {
-    position: 'absolute',
-    left: '65%',
-    top: '70%'
-}
 class Page2 extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            isFlame: false,
             energy1: {
                 show: false,
                 showArrow: false,
@@ -74,6 +70,7 @@ class Page2 extends Component {
     }
     resetEnergyState = async () => {
         this.setState({
+            isFlame: false,
             energy1: {
                 show: false,
                 showArrow: false,
@@ -307,6 +304,9 @@ class Page2 extends Component {
             document.querySelector('.arrow-down5') .classList.toggle('arrow5-down-clicked'); 
         }, 50);
     }
+    resetButton = () => {
+        this.resetEnergyState()
+    }
     render() {
         const { energy1, energy2, energy3, energy4, energy5 }  = this.state
         return (
@@ -450,6 +450,10 @@ class Page2 extends Component {
                         onClick={() => { energy5.show ? this.releaseEnergy5() : this.takeEnergy5() }}>
                             { energy5.textButton }
                         </a>
+                        <a class="button is-danger is-large is-outlined" 
+                        onClick={() => {this.resetButton() }}>
+                            Reset
+                        </a>
                     </div>
                     <div class="column">
                         λ ที่ได้
@@ -492,6 +496,9 @@ class Page2 extends Component {
             <div className="columns">
                     <div class="column">
                     {/* <img src={purple} className="image" alt="บันได" /> */}
+                    { (energy1.show || energy2.show || energy3.show || energy4.show || energy5.show ) && 
+                        (energy1.showArrow || energy2.showArrow  || energy3.showArrow  || energy4.showArrow  || energy5.showArrow) && 
+                        <Flame abs="absoluteFlame"/> }
                         { energy2.show && !energy2.showArrow && <img src={purple} className="image absolutePic" alt="บันได" /> }
                         { energy3.show && !energy3.showArrow && <img src={ocean} className="image absolutePic" alt="บันได" /> }
                         { energy4.show && !energy4.showArrow && <img src={blue} className="image absolutePic" alt="บันได" /> }

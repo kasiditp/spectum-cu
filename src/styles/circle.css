@@ -45,3 +45,8 @@
         width: 700px;
     }
 }
+.absoluteFlame {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}

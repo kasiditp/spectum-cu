@@ -4,7 +4,7 @@ import '../styles/flame.css';
 class Flame extends Component {
   render() {
     return (
-        <div className="flame-container flame-position">
+        <div className={"flame-container flame-position " + this.props.abs}>
             <div className="red flame"></div>
             <div className="orange flame"></div>
             <div className="yellow flame"></div>
