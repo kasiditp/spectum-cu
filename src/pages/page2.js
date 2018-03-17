@@ -16,6 +16,9 @@ const marginTop = {
 const textCenter = {
     textAlign: 'center'
 }
+const font20 = {
+    fontSize: '20px'
+}
 class Page2 extends Component {
     constructor(props) {
         super(props)
@@ -28,7 +31,7 @@ class Page2 extends Component {
                 showBall: false,
                 textButton: 'ดูดพลังงาน 1',
                 color: 'ไม่มีสี',
-                randar: 0
+                randar: 121.7
             },
             energy2: {
                 show: false,
@@ -78,7 +81,7 @@ class Page2 extends Component {
                 showBall: false,
                 textButton: 'ดูดพลังงาน 1',
                 color: 'ไม่มีสี',
-                randar: 0
+                randar: 121.7
             },
             energy2: {
                 show: false,
@@ -429,7 +432,7 @@ class Page2 extends Component {
                         }
                     </div>
                     <div class="column ">
-                        การดูดพลังงาน
+                        <div style={font20}>การดูดพลังงาน</div>
                         <a class="button is-primary is-large is-outlined" 
                         onClick={() => { energy1.show ? this.releaseEnergy1() : this.takeEnergy1() }}>
                             { energy1.textButton }
@@ -456,7 +459,7 @@ class Page2 extends Component {
                         </a>
                     </div>
                     <div class="column">
-                        λ ที่ได้
+                        <div style={font20}>λ ที่ได้ (nm)</div>  
                         <div class="control">
                             <input class="input" type="text" style={textCenter} value={ (energy1.show && !energy1.showArrow) ? energy1.randar: '' }/>
                         </div>
@@ -474,7 +477,7 @@ class Page2 extends Component {
                         </div>
                     </div>
                     <div class="column">
-                        สี ที่ได้
+                        <div style={font20}>สี ที่ได้</div>
                         <div class="control">
                             <input class="input" type="text" style={textCenter} value={ (energy1.show && !energy1.showArrow) ? energy1.color: '' }/>
                         </div>
@@ -506,7 +509,7 @@ class Page2 extends Component {
                     </div>
                     <div class="column">
                         <Link to="4" activeClassName="active">
-                            <button className="button is-light is-large buttonChangePage">เปรียบเทียบสีของเปลวไฟและ spectrum</button>
+                            <button className="button is-light is-large buttonChangePage">เปรียบเทียบสีของเปลวไฟและสเปกตรัมของไฮโดรเจน</button>
                         </Link>
                     </div>
             </div>

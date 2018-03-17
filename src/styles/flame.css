@@ -84,7 +84,7 @@
     width: 50%;
     height: 50%;
     background: rgb(154, 156, 250);
-    box-shadow: 0px 0px 9px 4px rgb(154, 156, 250);
+    box-shadow: 0px 0px 9px 4px rgb(26, 27, 85);
   }
   .cu-green{
     /* left: 15px;  */
@@ -153,14 +153,25 @@
   }
 
   .hydrogen{
+    left:10%; 
+    bottom:-4px;
+    /* width: 30px;
+    height: 30px; */
+    width: 70%;
+    height: 70%;
+    background:rgb(173, 57, 98);
+    /* rgb(173, 57, 98) */
+    box-shadow: 0px 0px 9px 4px rgb(173, 57, 98);
+  }
+  .hydrogen-red{
     /* left:15px;  */
     bottom:-4px;
     /* width: 30px;
     height: 30px; */
     width: 90%;
     height: 90%;
-    background:rgb(106, 38, 62);
-    box-shadow: 0px 0px 9px 4px rgb(106, 38, 62);
+    background:rgb(77, 106, 202);
+    box-shadow: 0px 0px 9px 4px rgb(77, 106, 202);
   }
   
   .circle{

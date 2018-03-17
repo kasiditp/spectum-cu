@@ -143,7 +143,10 @@ div.page3-button a {
   }
 }
 div a.button {
-  margin-top: 5%;
+  margin-top: 15%;
+}
+.no-margin-top {
+  margin-top: 0% !important;
 }
 div input {
   margin-top: 15%;

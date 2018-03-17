@@ -16,10 +16,10 @@ class PageCircle extends Component {
     render() {
         return (
             <section className="hero is-fullheight">
-                 <h1 className="title">ระดับพลังงานของอะตอม</h1>
+                 <h1 className="title">แบบจำลองอะตอมของไฮโดรเจนตามแนวคิดของโบร์</h1>
                 <Circle />
                 <Link to="2" activeClassName="active">
-                    <button className="button is-large button-circle-page"> สีของเปลวไฟ เกิดขึ้นได้อย่างไร </button>
+                    <button className="button is-large button-circle-page"> สเปกตรัมเกิดขึ้นได้อย่างไร </button>
                 </Link>
             </section>
         )

@@ -65,19 +65,19 @@ class Page3 extends Component {
                         </div>
                         <div class="column">
                             <div className="page3-button">
-                                <a class={"button is-primary is-large is-outlined" + (buttonSelect === 1 ? ":hover":"")} onClick={() => this.clickButton(1)}>Na<sub>2</sub>SO<sub>4</sub></a>
+                                <a class={"button is-primary is-large no-margin-top is-outlined" + (buttonSelect === 1 ? ":hover":"")} onClick={() => this.clickButton(1)}>Na<sub>2</sub>SO<sub>4</sub></a>
                             </div>
                             <div className="page3-button">
-                                <a class={"button is-primary is-large is-outlined" + (buttonSelect === 2 ? ":hover":"")} onClick={() => this.clickButton(2)}> NaCl </a>
+                                <a class={"button is-primary is-large no-margin-top is-outlined" + (buttonSelect === 2 ? ":hover":"")} onClick={() => this.clickButton(2)}> NaCl </a>
                             </div>
                             <div className="page3-button">
-                                <a class={"button is-primary is-large is-outlined" + (buttonSelect === 3 ? ":hover":"")} onClick={() => this.clickButton(3)}>KCl</a>
+                                <a class={"button is-primary is-large no-margin-top is-outlined" + (buttonSelect === 3 ? ":hover":"")} onClick={() => this.clickButton(3)}>KCl</a>
                             </div>
                             <div className="page3-button">
-                                <a class={"button is-primary is-large is-outlined" + (buttonSelect === 4 ? ":hover":"")} onClick={() => this.clickButton(4)}>KMnO<sub>4</sub></a>
+                                <a class={"button is-primary is-large no-margin-top is-outlined" + (buttonSelect === 4 ? ":hover":"")} onClick={() => this.clickButton(4)}>KMnO<sub>4</sub></a>
                             </div>
                             <div className="page3-button">
-                                <a class={"button is-primary is-large is-outlined" + (buttonSelect === 5 ? ":hover":"")} onClick={() => this.clickButton(5)}>CuSO<sub>4</sub></a>
+                                <a class={"button is-primary is-large no-margin-top is-outlined" + (buttonSelect === 5 ? ":hover":"")} onClick={() => this.clickButton(5)}>CuSO<sub>4</sub></a>
                             </div>
                         </div>
                     </div>

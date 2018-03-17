@@ -16,9 +16,9 @@ class Homepage extends Component {
         <div className="hero-body">
             <div className="container">
             <h1 className="title">แบบร่างวัตกรรมการเรียนรู้</h1>
-            <h2 className="subtitle">วิทยาศาสตร์เรื่อง spectrum และสีของเปลวไฟ</h2>
+            <h2 className="subtitle">วิทยาศาสตร์เรื่องสเปกตรัมและสีของเปลวไฟ</h2>
             <Link to="1" activeClassName="active">
-                <button className="button"> Link </button>
+                <button className="button is-large"> สื่อการเรียนรู้สเปกตรัมและสีของเปลวไฟ </button>
             </Link>
             </div>
         </div>

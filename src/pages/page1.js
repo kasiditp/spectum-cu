@@ -35,7 +35,7 @@ class Page1 extends Component {
         return (
         <div className="App">
             <section className="hero is-fullheight">
-            <h1 className="title">Spectrum of H<sub>2</sub></h1>
+            <h1 className="title">สีของเปลวไฟของไฮโดรเจน</h1>
             <div className="hero-body">
                 <div className="container">
                     <div className="container" >
