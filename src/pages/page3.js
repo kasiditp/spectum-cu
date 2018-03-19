@@ -6,6 +6,7 @@ import CuFlame from '../components/cuFlame'
 import light from '../assets/light.png'
 import NaSpectrum from '../assets/na-spectrum.png'
 import KSpectrum from '../assets/k-spectrum.png'
+import CuSpectrum from '../assets/cu-spectrum.png'
 
 class Page3 extends Component {
     constructor(props) {
@@ -61,6 +62,10 @@ class Page3 extends Component {
                             {
                                 (buttonSelect === 3 || buttonSelect === 4 )&&
                                 <img src={KSpectrum} className="spectrum-page3" alt="Na spectrum" />
+                            }
+                            {
+                                (buttonSelect === 5)&&
+                                <img src={CuSpectrum} className="spectrum-page3" alt="Cu spectrum" />
                             }
                         </div>
                         <div class="column">

@@ -314,7 +314,7 @@ class Page2 extends Component {
         const { energy1, energy2, energy3, energy4, energy5 }  = this.state
         return (
         <div className="App">
-            <h1 className="title">ระดับชั้นพลังงานของ H และการเกิด spectrum เมื่อเผา</h1>
+            <h1 className="title">ระดับชั้นพลังงานของ H และการปลดปล่อย spectrum เมื่อเผา</h1>
             <section className="hero is-fullheight">
             <div className="container">
                 <div className="columns">
